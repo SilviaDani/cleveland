@@ -845,6 +845,11 @@ footer{
     left: 0;
   }
 
+  #menu-toggle:checked ~ .menu{
+    border: none;
+    border-bottom: 3px solid gray
+  }
+
   #menu-toggle:checked ~ .menu li {
       height: 3em;
       width: 98%;
@@ -856,6 +861,24 @@ footer{
       width: 98%;
   }
 
+  .signin-arrow:before {
+    margin-top: 0px;
+  }
+
+  .signin-arrow:after {
+    margin-top: 0px;
+  }
+
+  #menu-toggle:checked ~ .menu:after,
+  #menu-toggle:checked ~ .menu:before{
+    left: 30px;
+  }
+
+  #signin-toggle:checked ~ .signin:after,
+  #signin-toggle:checked ~ .signin:before{
+    right: 32px;
+  }
+
   .articles-container{
     margin-left: 0;
     margin-right: 0;
@@ -864,6 +887,7 @@ footer{
     flex-direction: column;
   }
 
+  .advertaisment-container,
   .main-image{
     display: none;
   }

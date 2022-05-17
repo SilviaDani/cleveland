@@ -556,7 +556,7 @@ body {
 
 .content-container{
   display: flex;
-  margin: 10px 11% 10px 12%;
+  margin: 10px 12% 10px 12%;
   flex-direction: row;
 }
 

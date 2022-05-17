@@ -880,9 +880,9 @@ footer{
   }
 
   .articles-container{
-    margin-left: 0;
-    margin-right: 0;
+    margin:auto;
   }
+
   .main-articles-container {
     flex-direction: column;
   }
@@ -903,7 +903,7 @@ footer{
   }
 
   .title{
-    margin-left: 5px;
+    margin-left: 13%;
   }
 
   .article,

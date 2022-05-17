@@ -811,6 +811,11 @@ footer{
 
 @media (max-width: 875px) {
 
+  .content-container,
+  .title{
+    margin: 10px 10px 10px 10px;
+  }
+
   .weather-button-container,
   .extended-logo{
     display: none;
@@ -900,10 +905,6 @@ footer{
 
   .articles{
     flex-basis: 100%;
-  }
-
-  .title{
-    margin-left: 13%;
   }
 
   .article,
